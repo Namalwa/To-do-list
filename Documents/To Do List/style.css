@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    background: linear-gradient(135deg, #FFC080,#FFA07A);
+}
+.todolist{
+    width: 100%;
+    max-width: 540px;
+    margin:100px auto 20px; 
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    background: #fff;
+    
+}
+.todolist h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.listinput{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background: #edeef0;
+}
+input{
+    flex: 1;
+    outline: none;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+ul li{
+    padding:12px 8px 12px 50px ;
+    list-style:none;;
+    font-size:17px ;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+
+/* Style the mark as done button */
+.mark-as-done-button {
+    background-color: #4CAF50; /* Green background color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add some padding */
+    font-size: 10px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px;
+  }
+  
+  .mark-as-done-button:hover {
+    background-color: #3e8e41; 
+  }
+  
+  /* Style the delete button */
+  .delete-button {
+    background-color: #ff0000; /* Red background color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove border */
+    padding: 5px 10px; /* Add some padding */
+    font-size: 12px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .delete-button:hover {
+    background-color: #cc0000; /* Darker red background color on hover */
+  }
+  
